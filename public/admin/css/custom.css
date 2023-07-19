@@ -1,0 +1,45 @@
+.btn-lg {
+    height: 35px;
+}
+
+.bg-color {
+    background: #f4f5f7 !important;
+}
+
+.icon-color {
+    color: #484848 !important;
+}
+
+.text-color {
+    color: #484848 !important;
+}
+
+form textarea {
+    height: 5rem !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.flex-column a {
+    text-decoration: none;
+}
+
+.text-info {
+    color: white !important;
+}
+
+.active-sidebar {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    color: #484848;
+    border-radius: 0px 20px 20px 0px;
+    transition-duration: 0.45s;
+    -webkit-transition-property: color;
+    font-weight: 400;
+    background: white;
+}
+

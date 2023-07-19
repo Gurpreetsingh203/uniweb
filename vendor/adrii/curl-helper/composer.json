@@ -1,0 +1,27 @@
+{
+    "name": "adrii/curl-helper",
+    "description": "A simple class that helps to organize and have a standard when creating new projects.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Adrian",
+        "email": "adrian.villamayor@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Adrii\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit",
+        "test-curl": "phpunit test/CurlHelperTest.php"
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "9.6.x-dev"
+    }
+}
